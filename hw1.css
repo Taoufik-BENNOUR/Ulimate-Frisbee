@@ -1,0 +1,107 @@
+﻿body{
+  background-image:url('https://files.123freevectors.com/wp-content/original/169733-shiny-abstract-pink-and-blue-background-vector-image.jpg');
+  margin:1%;
+background-size:cover;
+}
+header{
+    border-radius:10px;
+  box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+  text-align:center;
+  background-image: url("http://intro-webdesign.com/CSS/assignment-2/images/flywheel.jpg");
+  padding:10px;
+  background-size: cover;
+  
+}
+h1{
+  color:#ffffff;
+  font-style:new time roman;
+}
+nav{
+  font-size:120%;
+  text-decoration:none;
+}
+nav a{
+  display:inline-block;
+  padding:10px;
+  margin:5px;
+  width:15%;
+  border-radius:10px;
+  background: rgba(0, 128, 0, 0.3);
+  text-decoration:none;
+  color:#000000;
+}
+a:hover{
+  background: rgba(238,130, 238,0.3);
+}
+
+
+
+.left{
+ display:block;
+    width: 20%;
+    height: 100vh;
+    float: left;
+    background: rgba(0, 128, 0, 0.3);
+ padding:10px;
+   border-radius:10px;
+  
+}
+.right{
+    display: inline-block;
+    width: 75%;
+    height: 100vh;
+    float: left;
+    margin-left: 1%;
+  margin-top:1px;
+  text-align: justify;
+}
+img{
+    display: block;
+    width: 100%;
+    border: solid 2px #000000;
+    margin: 0 auto;
+    margin-top: 30%;
+    margin-bottom: 1%;
+}
+.active{
+  background:rgba(255, 99, 71, 0.7);;
+}
+table{
+font-variant:normal;
+  font-family: "Times New Roman", Times, serif;
+  border-radius:20px; 
+ 
+}
+
+th{
+  background:rgba(255, 99, 71, 1);
+  color:white;
+}
+tr:hover{
+  opacity:1;
+}
+th:nth-child(2){text-align:center;}
+th:nth-child(3){text-align:center;}
+tr:first-child>th:first-child {
+border-radius:20px 0 0 0; 
+}
+tr:first-child>th:last-child {
+border-radius:0 20px 0 0; 
+}
+tr{width:250px;
+	height:20px ;
+  padding:10px;  
+  opacity:0.8;
+}
+
+td{
+  border-radius:2px;
+
+}
+
+tr:nth-child(odd) {
+	background: #F2F2F2;
+}
+tr:nth-child(even) {
+	background: rgba(255, 99, 71, 0.4);
+}
